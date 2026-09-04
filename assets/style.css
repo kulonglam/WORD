@@ -28,15 +28,15 @@ body{
   margin:0;
   background:var(--paper);
   color:var(--ink);
-  font-family:'Work Sans', Arial, sans-serif;
+  font-family:'Poppins', Helvetica, sans-serif;
   font-size:17px;
   line-height:1.65;
   -webkit-font-smoothing:antialiased;
   text-rendering:optimizeLegibility;
 }
 h1,h2,h3{
-  font-family:'Fraunces', Georgia, serif;
-  font-weight:500;
+  font-family:'Poppins', Helvetica, sans-serif;
+  font-weight:600;
   margin:0;
   color:var(--ink);
   letter-spacing:-0.01em;
@@ -199,7 +199,7 @@ nav.main-nav a.nav-cta[aria-current="page"]{
   color:var(--gold);
   margin:0 0 18px;
   font-style:italic;
-  font-family:'Fraunces', Georgia, serif;
+  font-family:'Poppins', Helvetica, sans-serif;
 }
 .hero h1{
   font-size:clamp(32px, 5.2vw, 54px);
@@ -238,7 +238,7 @@ body.nav-open{overflow:hidden;}
 .hero-meta div{font-size:13.5px; color:var(--paper-muted); line-height:1.45;}
 .hero-meta strong{
   display:block;
-  font-family:'Fraunces',Georgia,serif;
+  font-family:'Poppins', Helvetica, sans-serif;
   font-size:17px;
   color:var(--paper);
   font-weight:500;
@@ -296,7 +296,7 @@ figure.photo-card:hover img{
 }
 figure.photo-banner figcaption,
 figure.photo-card figcaption{
-  font-family:'Fraunces', Georgia, serif;
+  font-family:'Poppins', Helvetica, sans-serif;
   font-style:italic;
   font-size:14.5px;
   line-height:1.45;
@@ -330,7 +330,7 @@ figure.photo-card figcaption{
   align-items:center;
   justify-content:center;
   gap:8px;
-  font-family:'Work Sans',Arial,sans-serif;
+  font-family:'Poppins', Helvetica, sans-serif;
   font-size:15px;
   font-weight:600;
   text-decoration:none;
@@ -399,7 +399,7 @@ section{padding:clamp(56px, 8vw, 84px) 0;}
 section.tight{padding:clamp(44px, 6vw, 64px) 0;}
 .section-head{max-width:60ch; margin-bottom:clamp(32px, 4vw, 44px);}
 .section-tag{
-  font-family:'Fraunces',Georgia,serif;
+  font-family:'Poppins', Helvetica, sans-serif;
   font-style:italic;
   color:var(--clay);
   font-size:15px;
@@ -437,7 +437,7 @@ section.tight{padding:clamp(44px, 6vw, 64px) 0;}
   letter-spacing:0.08em;
   text-transform:uppercase;
   color:var(--indigo);
-  font-family:'Work Sans',Arial,sans-serif;
+  font-family:'Poppins', Helvetica, sans-serif;
   font-weight:600;
   margin-bottom:10px;
 }
@@ -445,7 +445,7 @@ section.tight{padding:clamp(44px, 6vw, 64px) 0;}
   margin:0;
   font-size:15.5px;
   font-style:italic;
-  font-family:'Fraunces',Georgia,serif;
+  font-family:'Poppins', Helvetica, sans-serif;
   line-height:1.5;
   color:var(--ink);
   max-width:none;
@@ -471,7 +471,7 @@ section.tight{padding:clamp(44px, 6vw, 64px) 0;}
   border:1px solid var(--clay);
   color:var(--clay);
   display:flex; align-items:center; justify-content:center;
-  font-family:'Fraunces',Georgia,serif;
+  font-family:'Poppins', Helvetica, sans-serif;
   font-size:13px;
   letter-spacing:0.02em;
   margin-bottom:14px;
@@ -536,7 +536,7 @@ section.tight{padding:clamp(44px, 6vw, 64px) 0;}
 .stat:first-child{border-left:none;}
 .stat strong{
   display:block;
-  font-family:'Fraunces',Georgia,serif;
+  font-family:'Poppins', Helvetica, sans-serif;
   font-size:clamp(28px, 3vw, 34px);
   color:var(--indigo);
   margin-bottom:8px;
@@ -606,7 +606,7 @@ section.tight{padding:clamp(44px, 6vw, 64px) 0;}
   font-size:13.5px;
   color:var(--paper-muted);
   border-top:1px solid rgba(241,233,218,0.16);
-  font-family:'Fraunces',Georgia,serif;
+  font-family:'Poppins', Helvetica, sans-serif;
   font-style:italic;
 }
 .contact-top .contact-list{margin-top:22px;}
@@ -632,7 +632,7 @@ address{font-style:normal;}
 }
 .contact-list a,
 .contact-list .val{
-  font-family:'Fraunces',Georgia,serif;
+  font-family:'Poppins', Helvetica, sans-serif;
   font-size:17px;
   color:var(--paper);
   text-decoration:none;
@@ -640,7 +640,7 @@ address{font-style:normal;}
 }
 .contact-list a:hover{color:var(--gold);}
 .contact-kicker{
-  font-family:'Fraunces',Georgia,serif;
+  font-family:'Poppins', Helvetica, sans-serif;
   font-style:italic;
   color:var(--gold);
   font-size:15px;
@@ -648,7 +648,7 @@ address{font-style:normal;}
 }
 .contact .intro strong{
   display:block;
-  font-family:'Fraunces',Georgia,serif;
+  font-family:'Poppins', Helvetica, sans-serif;
   font-size:20px;
   font-weight:500;
   font-style:normal;
@@ -757,7 +757,7 @@ address{font-style:normal;}
 .aside-note a{
   color:var(--clay);
   text-decoration:none;
-  font-family:'Fraunces',Georgia,serif;
+  font-family:'Poppins', Helvetica, sans-serif;
   font-size:16px;
 }
 .aside-note a:hover{text-decoration:underline;}
@@ -783,7 +783,7 @@ address{font-style:normal;}
 .form-field select,
 .form-field textarea{
   width:100%;
-  font-family:'Work Sans',Arial,sans-serif;
+  font-family:'Poppins', Helvetica, sans-serif;
   font-size:16px;
   color:var(--ink);
   background:var(--paper);
@@ -856,7 +856,7 @@ footer.site-footer{
   gap:20px 32px;
 }
 .footer-brand{
-  font-family:'Fraunces',Georgia,serif;
+  font-family:'Poppins', Helvetica, sans-serif;
   font-size:15px;
   color:rgba(241,233,218,0.88);
   margin-bottom:6px;

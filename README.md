@@ -26,7 +26,7 @@ thanks.html         Form success
 
 ## Assets
 - `assets/style.css`, `assets/main.js`
-- `assets/fonts/` — self-hosted Fraunces and Work Sans
+- `assets/fonts/` — self-hosted Poppins (Spacewalk-style typography)
 - Photos: `photo-team.jpg`, `photo-distribution.jpg`, `photo-supplies.jpg`
 - `favicons/`
 
