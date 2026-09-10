@@ -57,8 +57,8 @@ Works on any static host. Included helpers:
 Upload the whole folder; no build step.
 
 ## Before going live
-1. Replace `https://www.word-southsudan.org` everywhere with your real domain (canonicals, OG tags, sitemap, robots, form `_next`).
-2. Point DNS at the host and enable HTTPS.
+1. Domain is set to `https://www.word-ss.org` (canonicals, OG tags, sitemap, robots, form `_next`).
+2. Point DNS at Netlify and enable HTTPS.
 3. Confirm FormSubmit activation email.
 4. Submit `sitemap.xml` in Google Search Console.
 5. Add Board names, partner logos, registration PDF, and social URLs when approved.

@@ -3,4 +3,4 @@ Allow: /
 Disallow: /thanks.html
 Disallow: /404.html
 
-Sitemap: https://www.word-southsudan.org/sitemap.xml
+Sitemap: https://www.word-ss.org/sitemap.xml
