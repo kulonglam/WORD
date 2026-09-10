@@ -41,7 +41,7 @@ document.addEventListener('DOMContentLoaded', function () {
     });
   }
 
-  var revealEls = document.querySelectorAll('.section-head, .about-grid, .photo-pair, .photo-banner, .pillar-grid, .preview-grid, .approach-list, .values-list, .stat-grid, .contact-form, .side-panel, .partner-grid, .role-grid, .doc-list, .news-card');
+  var revealEls = document.querySelectorAll('.section-head, .about-grid, .photo-pair, .photo-banner, .photo-break, .pillar-grid, .preview-grid, .explore-layout, .cred-row, .approach-list, .principle-list, .values-list, .stat-grid, .milestone-rail, .outcome-grid, .report-grid, .contact-form, .contact-cta, .side-panel, .quote-stack, .partner-grid, .role-grid, .doc-list, .news-card, .step-list');
   if ('IntersectionObserver' in window && !window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
     revealEls.forEach(function (el) { el.classList.add('reveal'); });
     var io = new IntersectionObserver(function (entries) {
